@@ -8,10 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a1f5e2e-8647-41fc-a56e-c5c6b6c8df85" name="Changes" comment="Added DTOs for platform">
-      <change afterPath="$PROJECT_DIR$/Profiles/PlatformsProfile.cs" afterDir="false" />
+    <list default="true" id="9a1f5e2e-8647-41fc-a56e-c5c6b6c8df85" name="Changes" comment="Added automapper and profile for platform">
+      <change afterPath="$PROJECT_DIR$/Controllers/PlatformsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlatformService.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlatformService.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlatformService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformService.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Dtos/PatformCreateDto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
@@ -141,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709874125323</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed name">
+      <option name="closed" value="true" />
+      <created>1709874249501</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709874249501</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added automapper and profile for platform">
+      <option name="closed" value="true" />
+      <created>1709874265776</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709874265776</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +175,8 @@
     <MESSAGE value="Added platform repository service" />
     <MESSAGE value="Added seed" />
     <MESSAGE value="Added DTOs for platform" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added DTOs for platform" />
+    <MESSAGE value="Fixed name" />
+    <MESSAGE value="Added automapper and profile for platform" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added automapper and profile for platform" />
   </component>
 </project>
