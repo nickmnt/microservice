@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PlatformService.Dtos
 {
-    public class PatformCreateDto
+    public class PlatformCreateDto
     {
         [Required]
         public string Name { get; set; }
