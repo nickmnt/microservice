@@ -9,7 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a1f5e2e-8647-41fc-a56e-c5c6b6c8df85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlatformService.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlatformService.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandService/Controllers/PlatformsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CommandService/CommandService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../CommandService/CommandService.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +21,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Dtos/PatformCreateDto.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../CommandService/Controllers/PlatformsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Controllers/PlatformsController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -50,6 +47,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\mtagh\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\mtagh\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\mtagh\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.PlatformService">
@@ -105,7 +109,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -118,6 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709866822203</updated>
       <workItem from="1709866826178" duration="755000" />
+      <workItem from="1709934665614" duration="1498000" />
     </task>
     <task id="LOCAL-00001" summary="Added DbContext and set up service">
       <option name="closed" value="true" />
@@ -199,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709925350328</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Http Client for communication with CommandService">
+      <option name="closed" value="true" />
+      <created>1709935519782</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709935519782</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added sending to CommandService when creating platforms">
+      <option name="closed" value="true" />
+      <created>1709936899921</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709936899921</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +242,8 @@
     <MESSAGE value="Added automapper and profile for platform" />
     <MESSAGE value="Added controller for platform" />
     <MESSAGE value="Added Dockerfile for PlatformService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Dockerfile for PlatformService" />
+    <MESSAGE value="Added Http Client for communication with CommandService" />
+    <MESSAGE value="Added sending to CommandService when creating platforms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sending to CommandService when creating platforms" />
   </component>
 </project>
