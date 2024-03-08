@@ -8,11 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a1f5e2e-8647-41fc-a56e-c5c6b6c8df85" name="Changes" comment="Added controller for platform">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="9a1f5e2e-8647-41fc-a56e-c5c6b6c8df85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlatformService.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlatformService.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlatformService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PlatformService.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709875122837</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Dockerfile for PlatformService">
+      <option name="closed" value="true" />
+      <created>1709925350328</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709925350328</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +217,7 @@
     <MESSAGE value="Fixed name" />
     <MESSAGE value="Added automapper and profile for platform" />
     <MESSAGE value="Added controller for platform" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added controller for platform" />
+    <MESSAGE value="Added Dockerfile for PlatformService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Dockerfile for PlatformService" />
   </component>
 </project>
