@@ -1,5 +1,7 @@
+using System;
 using System.Linq;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using PlatformService.Models;
 
@@ -7,16 +9,28 @@ namespace PlatformService.Data
 {
     public class Seed
     {
-        public static void PreparePopulation(IApplicationBuilder app)
+        public static void PreparePopulation(IApplicationBuilder app, bool isProd)
         {
             using (var serviceScope = app.ApplicationServices.CreateScope())
             {
-                
+                SeedData(serviceScope.ServiceProvider.GetService<AppDbContext>(), isProd);
             }
         }
 
-        private static void SeedData(AppDbContext context)
+        private static void SeedData(AppDbContext context, bool isProd)
         {
+            if (isProd)
+            {
+                Console.Out.WriteLine("--> Attempting to apply migrations...");
+                try
+                {
+                    context.Database.Migrate();
+                }
+                catch (Exception ex)
+                {
+                    Console.Out.WriteLine($"--> Could not run migrations: {ex.Message}");
+                }
+            }
             if (!context.Platforms.Any())
             {
                 context.Platforms.AddRange(
