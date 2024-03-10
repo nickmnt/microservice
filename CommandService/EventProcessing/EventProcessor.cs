@@ -48,6 +48,7 @@ namespace CommandService.EventProcessing
                     {
                         repo.CreatePlatform(plat);
                         repo.SaveChanges();
+                        Console.Out.WriteLine("--> Platform added!");
                     }
                     else
                     {
