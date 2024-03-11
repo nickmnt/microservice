@@ -18,10 +18,10 @@ namespace PlatformService.Controllers
         private readonly IPlatformRepository _repository;
         private readonly IMapper _mapper;
         private readonly ICommandDataClient _commandDataClient;
-        private readonly MessageBusClient _messageBusClient;
+        private readonly IMessageBusClient _messageBusClient;
 
         public PlatformsController(IPlatformRepository repository, IMapper mapper, ICommandDataClient commandDataClient
-        ,MessageBusClient messageBusClient)
+        ,IMessageBusClient messageBusClient)
         {
             _repository = repository;
             _mapper = mapper;
