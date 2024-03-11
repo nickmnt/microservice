@@ -5,6 +5,8 @@ This repository contains the source code for a microservices-based application, 
 
 ## Solution Architecture
 
+  <img src="https://github.com/nickmnt/microservice/blob/main/Images/KubernetesArchitecture.png" alt="Screenshot"></img>
+
 The architecture above illustrates the service interactions and the communication flow between the `Platform Service` and the `Command Service`.
 
 ### Platform Service
