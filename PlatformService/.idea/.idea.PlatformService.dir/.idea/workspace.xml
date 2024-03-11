@@ -8,7 +8,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a1f5e2e-8647-41fc-a56e-c5c6b6c8df85" name="Changes" comment="" />
+    <list default="true" id="9a1f5e2e-8647-41fc-a56e-c5c6b6c8df85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CommandService/.idea/.idea.CommandService.dir/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PlatformService.dir/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlatformService.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlatformService.dir/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,40 +29,54 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b67a4d312d8b19b2b46987941f76ab59d16ffb5ce874ba6ee73a283a7c1654de/ExchangeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6311810d56c361cea23e8a5b2972194b627d5be741c18dcde1bb4e28da8dd3b/GrpcServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/def9bc64e56e11bb42d7c4ad42c25776fb4e486a592710656292c5cf2490a8/IGrpcServerBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../CommandService/Controllers/PlatformsController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Data/Seed.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AsyncDataServices/IMessageBusClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AsyncDataServices/MessageBusClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controllers/PlatformsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Profiles/PlatformsProfile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mtagh/OneDrive/Documents/code/microservice/PlatformService/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/appsettings.Production.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2dO6XPNJxupJocGD41ACJETVLWQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.PlatformService.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.PlatformService: IIS Express.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.PlatformService.executor": "Run",
+    ".NET Launch Settings Profile.PlatformService: IIS Express.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\mtagh\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\mtagh\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\mtagh\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\mtagh\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\mtagh\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\mtagh\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.PlatformService">
     <configuration name="PlatformService" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/PlatformService.csproj" />
@@ -131,6 +149,9 @@
       <workItem from="1709934665614" duration="1498000" />
       <workItem from="1709937586530" duration="701000" />
       <workItem from="1709941099168" duration="1214000" />
+      <workItem from="1710023010565" duration="1922000" />
+      <workItem from="1710033033697" duration="962000" />
+      <workItem from="1710086329894" duration="8590000" />
     </task>
     <task id="LOCAL-00001" summary="Added DbContext and set up service">
       <option name="closed" value="true" />
@@ -260,7 +281,127 @@
       <option name="project" value="LOCAL" />
       <updated>1709941867045</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixed parameter not being passed">
+      <option name="closed" value="true" />
+      <created>1710023276526</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710023276526</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added Rabbitmq config for PlatformService.csproj">
+      <option name="closed" value="true" />
+      <created>1710023299890</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710023299890</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed folder name being singular">
+      <option name="closed" value="true" />
+      <created>1710023575619</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710023575619</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added published platform DTO and its mapping">
+      <option name="closed" value="true" />
+      <created>1710023603611</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710023603611</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added asynchronous message bus client">
+      <option name="closed" value="true" />
+      <created>1710024525508</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1710024525508</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Set up services for Async Message Bus Client">
+      <option name="closed" value="true" />
+      <created>1710024539696</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710024539696</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added asynchronous RabbitMQ publishing on create platform">
+      <option name="closed" value="true" />
+      <created>1710024839864</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710024839864</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added Grpc packages for PlatformService">
+      <option name="closed" value="true" />
+      <created>1710086827238</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710086827238</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added Grpc packages for CommandService">
+      <option name="closed" value="true" />
+      <created>1710086840975</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710086840975</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added Grpc config for PlatformService">
+      <option name="closed" value="true" />
+      <created>1710086863411</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710086863411</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added proto file for Grpc">
+      <option name="closed" value="true" />
+      <created>1710086980912</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710086980912</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added GrpcPlatformService">
+      <option name="closed" value="true" />
+      <created>1710089375473</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710089375473</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added Automapper mapping for GrpcPlatformModel">
+      <option name="closed" value="true" />
+      <created>1710089399062</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710089399062</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added Grpc proto to csproj">
+      <option name="closed" value="true" />
+      <created>1710089437741</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710089437741</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Set up Grpc service in Startup.cs">
+      <option name="closed" value="true" />
+      <created>1710089459170</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710089459170</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,13 +409,8 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Added DbContext and set up service" />
-    <MESSAGE value="Added platform repository interface" />
-    <MESSAGE value="Added platform repository" />
-    <MESSAGE value="Added platform repository service" />
-    <MESSAGE value="Added seed" />
-    <MESSAGE value="Added DTOs for platform" />
     <MESSAGE value="Fixed name" />
     <MESSAGE value="Added automapper and profile for platform" />
     <MESSAGE value="Added controller for platform" />
@@ -285,6 +421,21 @@
     <MESSAGE value="Using Sql Server db pod for production" />
     <MESSAGE value="Updated Seed to apply migrations" />
     <MESSAGE value="Fixed connection string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed connection string" />
+    <MESSAGE value="Fixed parameter not being passed" />
+    <MESSAGE value="Added Rabbitmq config for PlatformService.csproj" />
+    <MESSAGE value="Fixed folder name being singular" />
+    <MESSAGE value="Added published platform DTO and its mapping" />
+    <MESSAGE value="Added asynchronous message bus client" />
+    <MESSAGE value="Set up services for Async Message Bus Client" />
+    <MESSAGE value="Added asynchronous RabbitMQ publishing on create platform" />
+    <MESSAGE value="Added Grpc packages for PlatformService" />
+    <MESSAGE value="Added Grpc packages for CommandService" />
+    <MESSAGE value="Added Grpc config for PlatformService" />
+    <MESSAGE value="Added proto file for Grpc" />
+    <MESSAGE value="Added GrpcPlatformService" />
+    <MESSAGE value="Added Automapper mapping for GrpcPlatformModel" />
+    <MESSAGE value="Added Grpc proto to csproj" />
+    <MESSAGE value="Set up Grpc service in Startup.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up Grpc service in Startup.cs" />
   </component>
 </project>
