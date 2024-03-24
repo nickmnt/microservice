@@ -26,14 +26,14 @@ namespace CommandService.EventProcessing
             switch (eventType)
             {
                 case EventType.PlatformPublished:
-                    // TO DO 
+                    AddPlatform(message); 
                     break;
                 default:
                     break;
             }
         }
 
-        private void addPlatform(string platformPublishedMessage)
+        private void AddPlatform(string platformPublishedMessage)
         {
             using (var scope = _scopeFactory.CreateScope())
             {
